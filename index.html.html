@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Tienda de Drones</title>
+    <style>
+        body { background: #111; color: #fff; font-family: Arial, sans-serif; max-width: 1100px; margin: 30px auto; padding: 0 15px; }
+        
+        header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 25px; color: #777; font-size: 14px; }
+        
+        .titulo { text-align: center; margin-bottom: 30px; }
+        .titulo h1 { color: #f39c12; margin: 0 0 5px; font-size: 26px; }
+        .titulo p { color: #888; margin: 0; font-size: 13px; }
+
+        .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 15px; margin-bottom: 40px; }
+        
+        .card { background: #181818; border: 1px solid #282828; padding: 12px; border-radius: 6px; display: flex; flex-direction: column; justify-content: space-between; }
+        .card img { width: 100%; height: 120px; object-fit: contain; background: #222; border-radius: 4px; margin-bottom: 10px; padding: 5px; box-sizing: border-box; }
+        .card h3 { font-size: 14px; margin: 0 0 6px; }
+        .precio { color: #f39c12; font-size: 15px; font-weight: bold; margin-bottom: 10px; }
+        
+        a, button { display: block; width: 100%; padding: 6px; font-size: 11px; font-weight: bold; text-align: center; text-transform: uppercase; border-radius: 4px; cursor: pointer; text-decoration: none; box-sizing: border-box; margin-bottom: 4px; }
+        .btn-ver { background: transparent; color: #fff; border: 1px solid #555; }
+        .btn-ver:hover { border-color: #fff; }
+        .btn-comprar { background: #f39c12; color: #111; border: none; }
+        .btn-comprar:hover { background: #e08b10; }
+
+        footer { text-align: center; border-top: 1px solid #222; padding-top: 20px; color: #777; font-size: 12px; }
+        footer a { color: #f39c12; display: inline; text-decoration: none; margin: 0 5px; }
+    </style>
+</head>
+<body>
+
+    <header>
+        <span>DJI & Autel Perú</span>
+        <span>🛒 Carrito (0)</span>
+    </header>
+
+    <div class="titulo">
+        <h1>Tienda Oficial de Drones</h1>
+        <p>Catálogo de modelos profesionales y recreativos</p>
+    </div>
+
+    <div class="grid">
+
+        <div class="card">
+            <div>
+                <img src="https://oechsle.vteximg.com.br/arquivos/ids/26489320-800-800/imageUrl_1.jpg?v=639212475450470000" alt="Dron">
+                <h3>DJI Mini 4 Pro</h3>
+                <div class="precio">S/ 3,499.00</div>
+            </div>
+            <div>
+                <a href="dron 1.html" class="btn-ver">Ver Detalle</a>
+                <button class="btn-comprar">Agregar</button>
+            </div>
+        </div>
+
+        <div class="card">
+            <div>
+                <img src="https://qtcdji.vtexassets.com/arquivos/ids/164792/DJI_Mini_5_Pro_Fly_More_Combo_Plus_-DJI_RC_2-_1.jpg?v=639125589850030000" alt="Dron">
+                <h3>DJI Mini 5 Pro</h3>
+                <div class="precio">S/ 4,250.00</div>
+            </div>
+            <div>
+                <a href="dron 2.html" class="btn-ver">Ver Detalle</a>
+                <button class="btn-comprar">Agregar</button>
+            </div>
+        </div>
+
+        <div class="card">
+            <div>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIDnzVU_xpetKaGR9vKAOrSP5I-FUH4lfV0LTSC7OKO8gOZDVSMKBFL4M&s=10" alt="Dron">
+                <h3>DJI Air 3S</h3>
+                <div class="precio">S/ 5,890.00</div>
+            </div>
+            <div>
+                <button class="btn-comprar">Agregar</button>
+            </div>
+        </div>
+
+        <div class="card">
+            <div>
+                <img src="https://coolboxpe.vtexassets.com/arquivos/ids/537483/rc2-FINAL-5.jpg?v=639111675957230000" alt="Dron">
+                <h3>DJI Mavic 3 Pro</h3>
+                <div class="precio">S/ 8,499.00</div>
+            </div>
+            <div>
+                <button class="btn-comprar">Agregar</button>
+            </div>
+        </div>
+
+        <div class="card">
+            <div>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7YcISGfNqNDr3GeUZ9rrnhM3OzxfeofpO8XWUG7rP3A&s=10" alt="Dron">
+                <h3>DJI Avata 2</h3>
+                <div class="precio">S/ 3,999.00</div>
+            </div>
+            <div>
+                <button class="btn-comprar">Agregar</button>
+            </div>
+        </div>
+
+        <div class="card">
+            <div>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtvyOw0jXSMca8DaNBaBT7neip8cSk5B4EZgK2JTnuH6qdD6LG8evrN4E&s=10" alt="Dron">
+                <h3>DJI Mini 3 SE</h3>
+                <div class="precio">S/ 1,599.00</div>
+            </div>
+            <div>
+                <button class="btn-comprar">Agregar</button>
+            </div>
+        </div>
+
+        <div class="card">
+            <div>
+                <img src="https://zintec.pe/cdn/shop/files/AIR3S-FMCRCN2B.jpg?v=1770090890&width=660" alt="Dron">
+                <h3>DJI Inspire 3</h3>
+                <div class="precio">S/ 32,500.00</div>
+            </div>
+            <div>
+                <button class="btn-comprar">Agregar</button>
+            </div>
+        </div>
+
+        <div class="card">
+            <div>
+                <img src="https://qtcdji.vtexassets.com/arquivos/ids/170085/DJI%20Avata%20360%20-DJI%20RC%202-_1.jpg?v=639181750310700000" alt="Dron">
+                <h3>Autel Evo Lite+</h3>
+                <div class="precio">S/ 4,800.00</div>
+            </div>
+            <div>
+                <button class="btn-comprar">Agregar</button>
+            </div>
+        </div>
+
+        <div class="card">
+            <div>
+                <img src="https://www.ghostysky.com/wp-content/uploads/2023/03/EVOII-Pro-RTK-V3-Rugged-Bundle-3.webp" alt="Dron">
+                <h3>Autel Evo Nano+</h3>
+                <div class="precio">S/ 3,100.00</div>
+            </div>
+            <div>
+                <button class="btn-comprar">Agregar</button>
+            </div>
+        </div>
+
+        <div class="card">
+            <div>
+                <img src="https://qtcdji.vtexassets.com/arquivos/ids/164792/DJI_Mini_5_Pro_Fly_More_Combo_Plus_-DJI_RC_2-_1.jpg?v=639125589850030000" alt="Dron">
+                <h3>Potensic Atom SE</h3>
+                <div class="precio">S/ 1,299.00</div>
+            </div>
+            <div>
+                <button class="btn-comprar">Agregar</button>
+            </div>
+        </div>
+
+        <div class="card">
+            <div>
+                <img src="https://aerodrones.pe/wp-content/uploads/2022/12/MINI-3-PRO-DJI-RC-5-500x500-1.jpg" alt="Dron">
+                <h3>DJI FPV Combo</h3>
+                <div class="precio">S/ 2,999.00</div>
+            </div>
+            <div>
+                <button class="btn-comprar">Agregar</button>
+            </div>
+        </div>
+
+        <div class="card">
+            <div>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR26wP3KVJYqKJ0UlKWX-WkkAjMPvMWJ-P8cm2xeeBhA67fRxdPanne6_8h&s=10" alt="Dron">
+                <h3>DJI Phantom 4</h3>
+                <div class="precio">S/ 18,900.00</div>
+            </div>
+            <div>
+                <button class="btn-comprar">Agregar</button>
+            </div>
+        </div>
+
+        <div class="card">
+            <div>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSV0dIR5HLwrnGhoOjJaO1GvsItmIAaq2zzpC-cCC2UGX1fUQQf3lJNrpTw&s=10" alt="Dron">
+                <h3>Holy Stone HS720</h3>
+                <div class="precio">S/ 1,150.00</div>
+            </div>
+            <div>
+                <button class="btn-comprar">Agregar</button>
+            </div>
+        </div>
+
+        <div class="card">
+            <div>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTWmY1r4IULfaKzkKoujmX2BTjXB8gY5L_jL6lxTGwIGUWlI1ONoMgcAY&s=10" alt="Dron">
+                <h3>DJI Matrice 30T</h3>
+                <div class="precio">S/ 45,000.00</div>
+            </div>
+            <div>
+                <button class="btn-comprar">Agregar</button>
+            </div>
+        </div>
+
+        <div class="card">
+            <div>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT3sfFy0PxAIosDty0w7D02GEFhB2ctk0lxT6JAgs1OV6pR-g3L3oVTKv_m&s=10" alt="Dron">
+                <h3>Skydio 2+</h3>
+                <div class="precio">S/ 6,200.00</div>
+            </div>
+            <div>
+                <button class="btn-comprar">Agregar</button>
+            </div>
+        </div>
+
+        <div class="card">
+            <div>
+                <img src="https://oechsle.vteximg.com.br/arquivos/ids/26782435-800-800/Image-4.jpg?v=639225821703000000" alt="Dron">
+                <h3>DJI Tello</h3>
+                <div class="precio">S/ 499.00</div>
+            </div>
+            <div>
+                <button class="btn-comprar">Agregar</button>
+            </div>
+        </div>
+
+        <div class="card">
+            <div>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTrh5-KO-z_Zo6tq1ebuiAsI66ntYbprLKqfwYh_jK7Q1ZHkRRcxeQj6xM&s=10" alt="Dron">
+                <h3>DJI Air 2S</h3>
+                <div class="precio">S/ 3,850.00</div>
+            </div>
+            <div>
+                <button class="btn-comprar">Agregar</button>
+            </div>
+        </div>
+
+        <div class="card">
+            <div>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSu_OU8rXGFTEX2xH-TXbNo1Ov4XNkiWRjpv9J5_yS6zQjFnnoEVb2FvUw&s=10" alt="Dron">
+                <h3>Hubsan Zino</h3>
+                <div class="precio">S/ 2,400.00</div>
+            </div>
+            <div>
+                <button class="btn-comprar">Agregar</button>
+            </div>
+        </div>
+
+        <div class="card">
+            <div>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQszbklxYS6GZwPrLYAmWJUp5LRaqlP_L3ob0AkCwkkya6FTH0S_oJJg70&s=10" alt="Dron">
+                <h3>DJI Agras T40</h3>
+                <div class="precio">S/ 68,000.00</div>
+            </div>
+            <div>
+                <button class="btn-comprar">Agregar</button>
+            </div>
+        </div>
+
+        <div class="card">
+            <div>
+                <img src="https://http2.mlstatic.com/D_Q_NP_2X_948362-MLA110905081175_042026-T.webp" alt="Dron">
+                <h3>DJI Mini 2 SE</h3>
+                <div class="precio">S/ 1,399.00</div>
+            </div>
+            <div>
+                <button class="btn-comprar">Agregar</button>
+            </div>
+        </div>
+
+    </div>
+
+    <footer>
+        <p>📞 987 654 321 &bull; ✉️ ventas@tiendadedrones.pe &bull; Lima, Perú</p>
+        <p><a href="#">Facebook</a> | <a href="#">Instagram</a> | <a href="#">YouTube</a></p>
+        <p style="margin-top: 10px; color: #444;">&copy; 2026 Tienda de Drones</p>
+    </footer>
+
+</body>
+</html>
